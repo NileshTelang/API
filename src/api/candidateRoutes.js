@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const checkPermission = require("../middlewares/checkPermission");
+// const checkPermission = require("../middlewares/checkPermission");
 const candidateController = require("../controller/candidateController");
 const candRoleController = require("../controller/candRoleController");
 const resumeController = require("../controller/resumeController");
